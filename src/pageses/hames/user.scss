@@ -1,0 +1,133 @@
+.user{
+    flex:4;
+
+    &_titlecontainer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &_addbutton{
+        width: 80px;
+        border: none;
+        padding:5px;
+        background-color:teal;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        color:white;
+    }
+    &_container{
+        display: flex;
+    }
+    &_show{
+        flex: 1;
+        padding: 20px;
+        -webkit-box-shadow: 0px -5px 30px 10px rgba(212, 226, 236, 0.76);
+        -moz-box-shadow: 0px -5px 30px 10px rgba(212, 226, 236, 0.76);
+         box-shadow: 0px -5px 30px 10px rgba(212, 226, 236, 0.76);;
+    }
+
+    &_epdete{
+        flex: 2;
+        padding: 20px;
+        -webkit-box-shadow: 0px -5px 30px 10px rgba(212, 226, 236, 0.76);
+        -moz-box-shadow: 0px -5px 30px 10px rgba(212, 226, 236, 0.76);
+         box-shadow: 0px -5px 30px 10px rgba(212, 226, 236, 0.76);;
+         margin-left: 20px;
+    }
+    &_showtop{
+        display: flex;
+        align-items: center;
+    }
+    &_showimg{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    &_showtoptitle{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    &_showusername{
+        font-weight: 600;
+    }
+    &_showusertitle{
+        font-weight: 300;
+    }
+    &_showbottom{
+        margin-top:20px;
+    }
+    &_showtilte{
+        font-size: 14px;
+        font-weight: 600;
+        color: #555;
+    }
+    &_epdetetitle{
+        font-size: 24px;
+        font-weight: 600;
+    }
+    &_epdeteitem{
+        display: flex;
+        margin-top:10px;
+        flex-direction: column;
+    }
+    &_epdeteitem > lebel{
+     margin-bottom:5px;
+     font-size: 14px;
+
+    }
+    &_epdeteinput{
+        border:none;
+        width: 250px;
+        height: 30px;
+        border-bottom: 1px solid #555;
+    }
+    &_epdeteform{
+        display: flex;
+        justify-content:space-between;
+        margin-top:20px;
+    }
+    &_showinfo{
+        display: flex;
+        align-items: center;
+        margin: 20px 0;
+        color: #444;
+    }
+    &_showicon{
+        font-size: 16px ! important;
+    }
+    &_showinfotitle{
+         margin-left: 10px;
+    }
+    &_updateuploerimg{
+        width:  100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-right: 20px;
+
+    }
+
+    &_epdeteright{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+    }
+    &_updateuploed{
+        display: flex;align-items:center;
+    }
+    &_epdeteicon{
+        cursor: pointer;
+    }
+    &_epdetebutton{
+        border-radius: 5px;
+        border: none;
+        padding: 5px;
+        cursor: pointer;
+        background-color:blue;
+        color: white;
+        font-weight: 600;
+    }
+}

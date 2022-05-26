@@ -1,0 +1,59 @@
+.wigetSm{
+    margin-left: 15px;
+    margin-top: -200px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    flex: 1;
+    padding:20px;
+    margin-right: 20px;
+    -webkit-box-shadow: 0px -5px 30px 10px rgba(212, 226, 236, 0.76);
+    -moz-box-shadow: 0px -5px 30px 10px rgba(212, 226, 236, 0.76);
+    box-shadow: 0px -5px 30px 10px rgba(212, 226, 236, 0.76);;
+    &_title{
+        font-size: 22px;
+        font-weight: 600;
+    }
+    &_img{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    &_list{
+        margin: 0;
+        padding: 0;
+    }
+    &_listitem{
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 20px 0px;
+       
+       
+          }
+    &_user{
+        display: flex;
+        flex-direction: column;
+    }
+    &_username{
+        font-weight: 600;
+    }
+    &_usertitle{
+        font-weight: 300;
+    }
+    &_button{
+        display: flex;
+        align-items: center;
+        border:none;
+        border-radius: 10px;
+        padding:7px 10px;
+        background-color: #eeeef7;
+        color: #555;
+        cursor: pointer;
+    }
+    &_icon{
+        font-size: 16px ! important;
+        margin-right: 5px;
+
+    }
+}

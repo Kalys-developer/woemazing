@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration:none;
+}
+ul{
+    list-style-type:none;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin:0 0px 0 120px;
+}
+
+.container1{
+    width: 100%;
+    max-width: 1200px;    
+    margin:15px 15px 0px 120px;
+    display: flex;
+    justify-content: space-between;    
+    padding: 20px 120px 0px 20px;
+    border-radius: 5px;
+}
+
+
+
+.container2{
+    display: flex;
+    margin-top: 10px;
+}
+.container3{
+    margin-left: 100px;
+    background-color:red;
+}
+
+
+
+
+
+
+
+
+
+@import'/src/loyout/header/header.scss';
+@import'/src/loyout/footer/footer.scss';
+@import'/src/pages/oplata/oplata.scss';
+@import'/src/pages/credit/credit.scss';
+@import'/src/pages/home/home.scss';
+@import'/src/pages/garantya/garantya.scss';
+@import '/src/components/topbar.scss';
+@import '/src/components/sidebar/sidebar.scss';
+@import '/src/pageses/hames/homes.scss';
+@import '/src/components/futeur/fuetur.scss';
+@import '/src/components/chart//chart.scss';
+@import '/src/wegetSm/wigetSm.scss';
+@import '/src/wegetLg/wiget.scss';
+@import '/src/pageses/hames/userlist.scss';
+@import '/src/pageses/hames/user.scss';
+@import '/src/pageses/hames/newUser.scss';
+@import '/src/pageses/hames/products.scss';
+@import '/src/pageses/hames/newProduct.scss';
+@import '/src/pages/button/button.scss';
+@import'/src/loyout/header/headermedia.scss'

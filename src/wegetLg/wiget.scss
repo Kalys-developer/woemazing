@@ -1,0 +1,54 @@
+.wigetlg{
+    flex:2;
+    margin-top: -200px;
+border-radius: 5px;
+&_title{
+    font-weight: 600;
+    font-size: 22px;
+}
+&_table{
+    width: 100%;
+    border-spacing: 20px;
+}
+&_th{
+    text-align: left;
+}
+&_user{
+    display: flex;
+    align-items: center;
+    font-weight: 600; 
+}
+&_img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+&_date{
+    
+}
+&_button{
+    padding:5px 7px;
+    border: none;
+    border-radius: 10px;
+}
+&_Approved {
+    background-color: bisque;
+    padding:5px 7px;
+    border: none;
+    border-radius: 10px;
+}
+&_Declined{
+    background-color:yellowgreen;
+    padding:5px 10px;
+    border: none;
+    border-radius: 10px;
+}
+&_Panding{
+    background-color:salmon;
+padding:5px 10px;
+border: none;
+border-radius: 10px;
+}
+}

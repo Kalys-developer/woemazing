@@ -1,0 +1,12 @@
+{
+  "users":[],
+  "closest":[
+    {
+    "id":1,
+    "title":"футболка USA",
+    "prise": 229,
+    "image": "",
+    "category": "t-shots"
+    }
+  ]
+}

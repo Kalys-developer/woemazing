@@ -1,0 +1,31 @@
+.button{
+    background-color:red;
+    border-radius: 5px;
+    width: 200px;
+     font-size: 18px;
+     padding: 10px;
+     margin-bottom: 20px;
+     text-align: center;
+     border: 1px solid #F8B763;
+     box-shadow: 1px 0px 0 0 #F8B763;
+     color:black;
+  }
+  .Main{
+    width: 200px;
+
+  }
+
+  @media(max-width:1200px){
+    .button{
+        background-color:red;
+        border-radius: 5px;
+        width: 100px;
+         font-size: 14px;
+         padding: 8px;
+         margin-bottom: 15px;
+         text-align: center;
+         border: 1px solid black;
+         box-shadow: 1px 0px 0 0 #F8B763;
+         color:black;
+      }
+}
