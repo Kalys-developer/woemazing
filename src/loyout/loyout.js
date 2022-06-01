@@ -10,6 +10,10 @@ import Credit from '../pages/credit/credit'
 import Dostavka from '../pages/dostavka/dostavka'
 import Notfound from '../pages/notfound/not'
 import Ustanovka from '../pages/ustanovka/ustanovka';
+import Homes from '../../src/pages/homes.jsx'
+import Userlist from '../../src/pageses/hames/userlist.jsx'
+import User from '../../src/pageses/hames/user.jsx'
+
 
 
 
@@ -29,13 +33,23 @@ const Loyout = () => {
           
           <Routes>
            <Route path="/home" element={<Home/>}/>
-           <Route path="/contact" element={<Contact/>}/>
-           <Route path="/credit" element={<Credit/>}/>
+           <Route path="/hom" element={<Contact/>}/>
+           <Route path="/userlist" element={<Credit/>}/>
            <Route path="/dostavka" element={<Dostavka/>}/>
            <Route path="/oplata" element={<Oplata/>}/>
            <Route path="/garantya" element={<Garantya/>}/>
            <Route path="/ustanovka" element={<Ustanovka/>}/>
            <Route path="*" element={<Notfound/>}/>
+           
+          
+           <Route path="/hom" element={<Homes/>}/>
+           <Route path="/userlist" element={<Userlist/>}/>
+           <Route path="/user/:userId" element={<User/>}/>
+
+
+
+
+          
            
           </Routes>
           <Footer/>

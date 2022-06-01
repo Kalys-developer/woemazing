@@ -1,8 +1,8 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom'
-import Topbar from '../components/topbar.jsx'
+import Topbar from '../loyout/topbar.jsx'
 import Sidebar from '../components/sidebar/sidebar.jsx'
-import Homes from '../pageses/hames/homes.jsx'
+import Homes from '../pages/homes.jsx'
 import User from '../pageses/hames/user.jsx'
 import Userlist from '../pageses/hames/userlist.jsx'
 import NewUser from '../pageses/hames/newUser.jsx'

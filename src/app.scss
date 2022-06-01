@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+   
 }
 a{
     text-decoration:none;
@@ -13,17 +14,25 @@ ul{
     width: 100%;
     max-width: 1200px;
     margin:0 0px 0 120px;
+   
 }
 
-.container1{
-    width: 100%;
-    max-width: 1200px;    
-    margin:15px 15px 0px 120px;
-    display: flex;
-    justify-content: space-between;    
-    padding: 20px 120px 0px 20px;
-    border-radius: 5px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -52,7 +61,7 @@ ul{
 @import'/src/pages/garantya/garantya.scss';
 @import '/src/components/topbar.scss';
 @import '/src/components/sidebar/sidebar.scss';
-@import '/src/pageses/hames/homes.scss';
+@import '/src/pages/homes.scss';
 @import '/src/components/futeur/fuetur.scss';
 @import '/src/components/chart//chart.scss';
 @import '/src/wegetSm/wigetSm.scss';
@@ -63,4 +72,4 @@ ul{
 @import '/src/pageses/hames/products.scss';
 @import '/src/pageses/hames/newProduct.scss';
 @import '/src/pages/button/button.scss';
-@import'/src/loyout/header/headermedia.scss'
+@import'/src/loyout/header/headermedia.scss';
