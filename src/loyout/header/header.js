@@ -2,9 +2,7 @@ import React from 'react';
 import {NavLink} from 'react-router-dom'
 import img from '../../img/image 7.svg'
 import img1 from '../../img/Vector (2).png'
-import img2 from '../../img/spisok.svg'
 import img3 from '../../img/Search_.svg.png'
-import img4 from '../../img/call-icon-.webp'
 import BasicMenu from '../../pages/button/button.jsx'
 
 
@@ -54,7 +52,7 @@ const Header = () => {
         <div className="header_bottom">
         <div class="dropdown"> 
         <div class="widget">
-            <BasicMenu className="menu"/>
+            <BasicMenu />
     
     
   </div>     

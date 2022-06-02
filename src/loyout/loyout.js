@@ -33,8 +33,8 @@ const Loyout = () => {
           
           <Routes>
            <Route path="/home" element={<Home/>}/>
-           <Route path="/hom" element={<Contact/>}/>
-           <Route path="/userlist" element={<Credit/>}/>
+           <Route path="/contact" element={<Contact/>}/>
+           <Route path="/credit" element={<Credit/>}/>
            <Route path="/dostavka" element={<Dostavka/>}/>
            <Route path="/oplata" element={<Oplata/>}/>
            <Route path="/garantya" element={<Garantya/>}/>

@@ -1,6 +1,28 @@
 .text-muted{
 text-align: center;
 font-size: 20px;}
+
+.l{
+    font-weight: bold;
+     margin-left:430;
+}
+@media (max-width:1200px) {
+    .bold{
+        
+         margin-left:330;
+    }
+}
+@media (max-width:991px) {
+    .kold{
+        
+         margin-left:50;
+    }
+}
+
+
+
+
+
 .date2{
     font-size: 22px;
     border: 1px solid red;
@@ -8,12 +30,60 @@ font-size: 20px;}
     padding:10px 0 10px 10px;
     width: 1100px;
 }
+@media (max-width:1200px) {
+    .date2{
+        width: 991px;
+    }
+}
+@media (max-width:991px) {
+    .date2{
+        width: 768px;
+    }
+}
+@media (max-width:768px) {
+    .date2{
+        width: 600px;
+    }
+}
 .content{
     border: 1px solid red;
     margin-bottom: 20px;
     width: 1100px;
 }
+@media (max-width:1200px) {
+    .content{
+        width: 991px;
+    }
+}
+@media (max-width:991px) {
+    .content{
+        width: 768px;
+    }
+}
+@media (max-width:768px) {
+    .content{
+        width: 600px;
+    }
+}
 .img{
     margin-right: 400px;
     margin-left:50px;
+}
+@media (max-width:1200px) {
+    .img{
+        margin-right: 300px;
+        margin-left:40px;
+    }
+}
+@media (max-width:991px) {
+    .img{
+        margin-right: 200px;
+        margin-left:30px;
+    }
+}
+@media (max-width:768px) {
+    .img{
+        margin-right: 100px;
+        margin-left:20px;
+    }
 }

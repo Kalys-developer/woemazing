@@ -1,4 +1,17 @@
-
+@media(max-width:1200px) {
+  .imgggg{
+    width: 800px;
+    height: 500px;
+   
+   
+    }
+}
+@media (max-width:1200px) {
+  .container1{
+    
+     
+   }
+}
 .container1{
  max-width: 1100px;
   height: 600px;
@@ -7,13 +20,12 @@
 .imgggg{
      display: flex;
     margin: 10px 10px 10px 10px;
+    
 }
-.imggger{
-width: 850px;
-border-radius: 5px;
-margin-left: 28px;
-}
-.imgggerr{
-  width: 335px;
-  border-radius: 5px;
+.card{
+width: 1250px;
+border-radius: 10px;
+margin-left: 0px;
+
+
 }

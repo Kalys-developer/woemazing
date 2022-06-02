@@ -1,0 +1,42 @@
+.img-responsive{
+    width: 1000px;height: 500px;
+}
+
+
+@media (max-width:1200px) {
+    .img-responsive{
+        width: 800px;height: 500px;
+    }
+}
+
+@media (max-width:991px) {
+    .img-responsive{
+        width: 600px;height: 400px;
+    }
+}
+@media (max-width:768px) {
+    .img-responsive{
+        width: 400px;height: 200px;
+    }
+}
+
+.corcle{
+    width: 500px;
+    height: 500px;
+}
+@media (max-width:1200px) {
+    .corcle{
+        width: 400px;height: 400px;
+    }
+}
+
+@media (max-width:991px) {
+    .corcle{
+        width: 300px;height: 300px;
+    }
+}
+@media (max-width:768px) {
+    .corcle{
+        width: 200px;height: 200px;
+    }
+}
